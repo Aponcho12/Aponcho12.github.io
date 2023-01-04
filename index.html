@@ -8,7 +8,7 @@
 	<meta name="keywords" content="Bus, Autobus, Transport, Moisés, Coach"><!--Per a definir paraules clau al buscador-->
 	<meta name="robots" content="index,follow"><!--metadada per a indexa la pagina-->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"><!--per a realitzar la web responsive-->
-	<title>MOISES</title><!--titol-->
+	<title>Changes</title><!--titol-->
 	<link rel="shortcut icon" href="favicon.ico" type="image/ico"><!--icona de la pestanya de la web-->
 	<link rel="preconnect" href="https://fonts.googleapis.com"><!--font de lletra-->
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><!--font de lletra-->
@@ -19,8 +19,7 @@
 	}
 	.container{
 		width: 1000px;<!--Tamany quadrat pagina-->;
-		background-image: linear-gradient(135deg, 
-			#BBEEFF, #33CCFF, #BBEEFF);<!--Degradat de colors quadrat-->;
+		background-color: transparent;<!--Degradat de colors quadrat-->;
 		background-size: 500%;<!--Tamany del fons-->;
 		animation: fanimado 10s infinite; <!--animacio fons de pagina-->;
 		margin: auto;<!--marge-->;
@@ -38,23 +37,43 @@
     }
 }
 	.top{
-		margin-top:30px;<!--marge per al top-->;
+		margin-top:30px;
 	}
 	.menu{
-		float: right;<!--Alineacio a la dreta del menu-->;
+		float: right;
 	}
 	.menu li {
-	display: inline-block;<!--Borde del menu-->;
+	display: inline-block;
 	}
 	.menu a{
-		color: black;<!--color negre-->;
-		text-decoration: none;<!--no decoracio per als items-->;
-		padding: 10px;<!--tamany de borde-->;
+		color: black;
+		text-decoration: none;
+		padding: 10px;
 	}
-	.menu a:hover{<!--Decoracio per quan ens fiquem damunt del item-->;
-		background-size: 500%;<!--tamany fons-->;
-		border-radius: 10px;<!--borde-->;
-		border:2px solid #2F4F4F;<!--color del borde-->;
+	.col a:hover{
+		background-size: 100%;
+		border-radius: 5px;
+		border:1px solid #2F4F4F;
+	}
+	.peri{
+		color: black;
+		text-decoration: none;
+		padding: 2px;
+	}
+	.pant{
+		color: black;
+		text-decoration: none;
+		padding: 2px;
+	}
+	.ord{
+		color: black;
+		text-decoration: none;
+		padding: 2px;
+	}
+	.menu a:hover{
+		background-size: 500%;
+		border-radius: 10px;
+		border:2px solid #2F4F4F;
 	}
 	.col{
 		width: 265px;<!--tamany-->;
@@ -64,7 +83,7 @@
 		padding: 5px;<!--borde entre bloc-->;
 	}
 	.col h2{<!--color dels titols-->;
-		color: #6666CC
+		color: black
 	}
 	.row{<!--alinieacio-->;
 		text-align: center
@@ -125,42 +144,33 @@
 </script>
 <section class="container">
 	<div class="header">
-		<img src="img/logo.png" height="75" width="150" alt="">
+		<img src="img/logo.png" height="75" width="100" alt="">
 		<ul class="menu top">
-			<li><a href="index.html">Inici</a></li>
-			<li><a href="linies.html">Linies</a></li>
-			<li><a href="som.html">Qui som</a></li>
-			<li><a href="contacte.html">Contacte</a></li>
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="perifericos.html">Perifericos</a></li>
+			<li><a href="pantallas.html">Pantallas</a></li>
+			<li><a href="ordenadores.html">Ordenadores</a></li>
 		</ul>
 	</div>
-	<img src="img/bus_vinilat.png" height="400" width="1000" alt="">
+	<img src="img/teclatbanner.png" height="400" width="1000" alt="">
 	<div class="row">
 		<div class="col">
-			<h2>Economia</h2>
-			<img src="img/economia.png" alt="" height="260" width="260">
-			<p>Amigable amb preus flexibles i competitius. Amb la possibilitat de demanar targetes en cabina per a viatgants freqüents. Am connexió wifi i endolls a l'interior. Els àpats van part i es demanen durant el viatge, no inclosos.</p>
+			<h2>Periféricos</h2>
+			<img src="img/perifericos.png" alt="" height="260" width="260">
+			<a class="peri" href="https://www.amazon.es/NXKROMKASIC-num%C3%A9rico-mec%C3%A1nico-intercambia-direcci%C3%B3n/dp/B09B413RB7/ref=sr_1_8?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1MFS66K0RKCYS&keywords=teclado&qid=1672854970&sprefix=teclado%2Caps%2C101&sr=8-8&th=1">Ver productos</a>
 		</div>
 		<div class="col">
-			<h2>Ergonomia</h2>
-			<img src="img/ergonomia.png" alt="" height="260" width="260">
-			<p>La nostra flota està equipat pensant en els nostres passatgers. Res de pocs centímetres entre seients. Estira les teves cames, baixa el recolzament i senteix-te com en un superdeportiu.</p>
+			<h2>Pantallas</h2>
+			<img src="img/pantallas.png" alt="" height="260" width="260">
+			<a class="pant" href="https://www.amazon.es/Samsung-LF24T352FHRXEN-1920x1080-Freesync-pantalla/dp/B08SW5C9PF/ref=sr_1_5?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=35EMNEXIKKY74&keywords=monitores&qid=1672855378&sprefix=monitores%2Caps%2C126&sr=8-5">Ver productos</a>
 		</div>
 		<div class="col">
-			<h2>Ecologia</h2>
-			<img src="img/ecologia.png" alt="" height="260" width="260">
-			<p>El nostre compromís és portar de punt A - B al màxim d'usuaris possible amb el minim consum possible. Som un 70% més estalviadors de gasos CO2 comparant amb altres marques. Busos elèctics, híbrids i de baix consum. Els seients estan fets amb pell sintètica</p>
+			<h2>Ordenadores</h2>
+			<img src="img/ordenadores.png" alt="" height="260" width="260">
+			<a class="ord" href="https://www.amazon.es/Lenovo-IdeaCentre-Gen-Ordenador-Sobremesa/dp/B0B7P9R8RV/ref=sr_1_37?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3AAZIU21DO212&keywords=ordenadores&qid=1672855473&sprefix=ordenadore%2Caps%2C110&sr=8-37">Ver productos</a>
 		</div>
 	</div>
-	<div class="footer">
-	<span><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"></a><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"></a></span>
-				<ul class="menu">
-			<li><a href="index.html">Moises.cat</a></li>
-			<li><a href="index.html">Inici</a></li>
-			<li><a href="linies.html">Linies</a></li>
-			<li><a href="som.html">Qui som</a></li>
-			<li><a href="contacte.html">Contacte</a></li>
-			</ul>
-	</div>
+	
 </section>
 </body>
 </html>
