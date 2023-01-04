@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang ="es">
+<head>
+	<meta charset ="UTF-8">
+	<meta name="author" content="Alfonso Cisneros i Álvaro Rubio">
+	<meta name="copyright" content="Alfonso Cisneros i Álvaro Rubio">
+	<meta name="description" content="Pàgina principal de la companyia de busos Espanyola de Moisés">
+	<meta name="keywords" content="Bus, Autobus, Transport, Moisés, Coach">
+	<meta name="robots" content="index,follow">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MOISES</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lexend&display=swap" rel="stylesheet"> 
+	<style>
+	body{
+		background: url(img/fons.png)
+	}
+	.container{
+		width: 1000px;
+		background-image: linear-gradient(135deg, 
+			#BBEEFF, #33CCFF, #BBEEFF);
+		background-size: 500%;
+		animation: fanimado 10s infinite; 
+		margin: auto;
+		border-radius: 25px;
+	}
+	@keyframes fanimado{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+	.top{
+		margin-top:30px
+	}
+	.menu{
+		float: right
+	}
+	.menu li {
+	display: inline-block;
+	}
+	.menu a{
+		color: black;
+		text-decoration: none;
+		padding: 10px
+	}
+	.menu a:hover{
+		
+		background-size: 500%;
+		border-radius: 10px;
+		border:2px solid #2F4F4F
+	}
+	.col{
+		width: 900px;
+		display: inline-block;
+		vertical-align: top;
+		text-align: justify;
+		padding: 20px
+	}
+	.col h2{
+		color: #6666CC
+	}
+	.row{
+		text-align: left
+	}
+	.footer{
+		overflow: hidden;
+	}
+	.footer a{
+		color: black;
+		text-decoration: none
+	}
+	.footer span{
+		float: left;
+		margin-top: 10px;
+		margin-left: 30px
+	}
+	.container {
+		font-family: 'Lexend', sans-serif;
+	}
+@media screen and (max-width: 980px){
+    .container{
+        width: 90%;
+    }
+    .row{
+        width: 60%;
+    }
+    .cool{
+        width:30%;
+    }	
+	</style>
+</head>
+<body>
+<div class="container">
+	<div class="header">
+		<img src="img/logo.png" height="75" width="150" alt="">
+		<ul class="menu top">
+			<li><a href="index.html">Inici</a></li>
+			<li><a href="linies.html">Linies</a></li>
+			<li><a href="som.html">Qui som</a></li>
+			<li><a href="contacte.html">Contacte</a></li>
+		</ul>
+	</div>
+	
+	<div class="row">
+		<div class="col">
+			<h2>Qui som</h2>
+			<p>Som una empresa de transport públic, els nostres vehicles són els autobusos i tenim una gran disponibilitat per tota Espanya. Dintre de la nostra empresa es poden trobar diferents tipus de treballadors especialitzats sobre el nostre servei. El nostre servei és confiable i segur. Tenim als millors professionals preparats per a qualsevol mena de situació amb molt bona preparació.</p>
+			<img src="img/economia.png/" alt="" height="260" width="250">
+		</div>
+	</div>
+	<div class="footer">
+	<span><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"></a><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"></a></span>
+				<ul class="menu">
+			<li><a href="index.html">Moises.cat</a></li>
+			<li><a href="index.html">Inici</a></li>
+			<li><a href="linies.html">Linies</a></li>
+			<li><a href="som.html">Qui som</a></li>
+			<li><a href="contacte.html">Contacte</a></li>
+			</ul>
+	</div>
+</div>
+</body>
+</html>

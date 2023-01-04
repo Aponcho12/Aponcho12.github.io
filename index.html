@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang ="es"><!--llenguatge html-->
+<head>
+	<meta charset ="UTF-8"><!--metadada per a resolucio de caracters-->
+	<meta name="author" content="Alfonso Cisneros i Álvaro Rubio"><!--Fa referencia als creadors de la pagina-->
+	<meta name="copyright" content="Alfonso Cisneros i Álvaro Rubio"><!--fa referencia als propietars dels drets d'autor-->
+	<meta name="description" content="Pàgina principal de la companyia de busos Espanyola de Moisés"><!--descipcio de la pagina-->
+	<meta name="keywords" content="Bus, Autobus, Transport, Moisés, Coach"><!--Per a definir paraules clau al buscador-->
+	<meta name="robots" content="index,follow"><!--metadada per a indexa la pagina-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"><!--per a realitzar la web responsive-->
+	<title>MOISES</title><!--titol-->
+	<link rel="shortcut icon" href="favicon.ico" type="image/ico"><!--icona de la pestanya de la web-->
+	<link rel="preconnect" href="https://fonts.googleapis.com"><!--font de lletra-->
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><!--font de lletra-->
+	<link href="https://fonts.googleapis.com/css2?family=Lexend&display=swap" rel="stylesheet"> <!--font de lletra-->
+	<style>
+	body{
+		background: url(img/fons.png);<!--Foto fons de pagina-->
+	}
+	.container{
+		width: 1000px;<!--Tamany quadrat pagina-->;
+		background-image: linear-gradient(135deg, 
+			#BBEEFF, #33CCFF, #BBEEFF);<!--Degradat de colors quadrat-->;
+		background-size: 500%;<!--Tamany del fons-->;
+		animation: fanimado 10s infinite; <!--animacio fons de pagina-->;
+		margin: auto;<!--marge-->;
+		border-radius: 25px;<!--tamany de borde-->;
+	}
+	@keyframes fanimado{<!--animacio color fons-->;
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+	.top{
+		margin-top:30px;<!--marge per al top-->;
+	}
+	.menu{
+		float: right;<!--Alineacio a la dreta del menu-->;
+	}
+	.menu li {
+	display: inline-block;<!--Borde del menu-->;
+	}
+	.menu a{
+		color: black;<!--color negre-->;
+		text-decoration: none;<!--no decoracio per als items-->;
+		padding: 10px;<!--tamany de borde-->;
+	}
+	.menu a:hover{<!--Decoracio per quan ens fiquem damunt del item-->;
+		background-size: 500%;<!--tamany fons-->;
+		border-radius: 10px;<!--borde-->;
+		border:2px solid #2F4F4F;<!--color del borde-->;
+	}
+	.col{
+		width: 265px;<!--tamany-->;
+		display: inline-block;<!--ordre per al cuadrats de text-->;
+		vertical-align: top;<!--alinieacio-->;
+		text-align: justify;<!--text justificat-->;
+		padding: 5px;<!--borde entre bloc-->;
+	}
+	.col h2{<!--color dels titols-->;
+		color: #6666CC
+	}
+	.row{<!--alinieacio-->;
+		text-align: center
+	}
+	.footer{<!--peu de pagina-->;
+		overflow: hidden;
+	}
+	.footer a{
+		color: black;<!--color negra-->;
+		text-decoration: none<!--no decoracio-->;
+	}
+	.footer span{
+		float: left;<!--aliniacio a l'esquerra-->;
+		margin-top: 10px;<!--marge de dalt-->;
+		margin-left: 30px<!--marge esquerre-->;
+	}
+	.container {<!--tipus de lletra per a la pagina-->;
+		font-family: 'Lexend', sans-serif;
+	}
+@media screen and (max-width: 980px){<!--mida per a telefon-->;
+    .container{
+        width: 90%;
+    }
+    .row{
+        width: 60%;
+    }
+    .cool{
+        width:30%;
+    }
+	</style>
+</head>
+<body>
+<script type="application/ld+json"><!--script per a que la pagina sigui mes facil de trobar-->;
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://moises-coach.000webhostapp.com/"
+  },
+  "headline": "",
+  "image": "",  
+  "author": {
+    "@type": "Person",
+    "name": "Alfonso & Álvaro"
+  },  
+  "publisher": {
+    "@type": "Organization",
+    "name": "000webhost",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://es.000webhost.com/static/default.000webhost.com/images/logo/400x400-red.png"
+    }
+  },
+  "datePublished": "2022-12-04",
+  "dateModified": "2022-12-06"
+}
+</script>
+<section class="container">
+	<div class="header">
+		<img src="img/logo.png" height="75" width="150" alt="">
+		<ul class="menu top">
+			<li><a href="index.html">Inici</a></li>
+			<li><a href="linies.html">Linies</a></li>
+			<li><a href="som.html">Qui som</a></li>
+			<li><a href="contacte.html">Contacte</a></li>
+		</ul>
+	</div>
+	<img src="img/bus_vinilat.png" height="400" width="1000" alt="">
+	<div class="row">
+		<div class="col">
+			<h2>Economia</h2>
+			<img src="img/economia.png" alt="" height="260" width="260">
+			<p>Amigable amb preus flexibles i competitius. Amb la possibilitat de demanar targetes en cabina per a viatgants freqüents. Am connexió wifi i endolls a l'interior. Els àpats van part i es demanen durant el viatge, no inclosos.</p>
+		</div>
+		<div class="col">
+			<h2>Ergonomia</h2>
+			<img src="img/ergonomia.png" alt="" height="260" width="260">
+			<p>La nostra flota està equipat pensant en els nostres passatgers. Res de pocs centímetres entre seients. Estira les teves cames, baixa el recolzament i senteix-te com en un superdeportiu.</p>
+		</div>
+		<div class="col">
+			<h2>Ecologia</h2>
+			<img src="img/ecologia.png" alt="" height="260" width="260">
+			<p>El nostre compromís és portar de punt A - B al màxim d'usuaris possible amb el minim consum possible. Som un 70% més estalviadors de gasos CO2 comparant amb altres marques. Busos elèctics, híbrids i de baix consum. Els seients estan fets amb pell sintètica</p>
+		</div>
+	</div>
+	<div class="footer">
+	<span><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"></a><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"></a></span>
+				<ul class="menu">
+			<li><a href="index.html">Moises.cat</a></li>
+			<li><a href="index.html">Inici</a></li>
+			<li><a href="linies.html">Linies</a></li>
+			<li><a href="som.html">Qui som</a></li>
+			<li><a href="contacte.html">Contacte</a></li>
+			</ul>
+	</div>
+</section>
+</body>
+</html>
+
+<!--Canviar div per section-->
